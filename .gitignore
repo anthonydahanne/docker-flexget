@@ -1,0 +1,7 @@
+# don't commit the current configuration
+config.yml
+# don't commit the lock, if it exists
+.config-lock
+# don't commit the flexget db nor the current log
+db-config.sqlite
+flexget.log

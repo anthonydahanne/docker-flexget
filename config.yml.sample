@@ -1,0 +1,19 @@
+tasks:
+  tv-task:
+    rss: http://rss.url
+    series:
+      settings:
+        720p:
+          set:
+            path: /flexget/
+            label: 720p
+      720p:
+        - A cool serie
+    transmission:
+      host: transmission
+      port: 9091
+  # example including the use of cfscrap plugin : http://discuss.flexget.com/t/grab-everything-from-cpasbien-with-plugin/1393/8
+schedules:
+  - tasks: '*-task'
+    interval:
+      hours: 1

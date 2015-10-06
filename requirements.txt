@@ -1,0 +1,5 @@
+flexget
+transmissionrpc
+cfscrape
+PyExecJS >= 1.1.0
+requests >= 2.0.0
